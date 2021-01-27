@@ -33,6 +33,17 @@ app.use(async function disableCorsMiddleware (ctx, next) {
 // Create the router instance.
 const specifiedPort = process.env.SWAPI_PORT
 
+router.get('/', ctx => {
+  ctx.body = {
+    "people": "https://swapi.booost.bg/api/people/",
+    "planets": "https://swapi.booost.bg/api/planets/",
+    "films": "https://swapi.booost.bg/api/films/",
+    "species": "https://swapi.booost.bg/api/species/",
+    "vehicles": "https://swapi.booost.bg/api/vehicles/",
+    "starships": "https://swapi.booost.bg/api/starships/"
+  };
+})
+
 const endpoints = fs
     .readdirSync(path.resolve(__dirname + '/data'))
     .map(file => {
