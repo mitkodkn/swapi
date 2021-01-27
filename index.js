@@ -1,14 +1,14 @@
 const Koa = require('koa')
+const Router = require('koa-router');
 const json = require('koa-json')
 const { print, chalk: { yellow } } = require('@ianwalter/print')
-const Router = require('@ianwalter/router')
 const pkg = require('./package.json')
-
-// Import the JSON data copied from http://github.com/phalt/swapi.
-const people = require('./data/people.json')
+const fs = require('fs')
+const path = require('path')
 
 // Create the Koa app instance.
 const app = new Koa()
+const router = new Router();
 
 // Add error-handling middleware.
 app.use(async function errorHandlingMiddleware (ctx, next) {
@@ -32,24 +32,31 @@ app.use(async function disableCorsMiddleware (ctx, next) {
 
 // Create the router instance.
 const specifiedPort = process.env.SWAPI_PORT
-const router = new Router(`http://localhost:${specifiedPort || 3000}`)
 
-// Add a root route that provides information about the service.
-router.add('/', ctx => {
-  ctx.body = {
-    name: pkg.name,
-    description: pkg.description,
-    version: pkg.version
-  }
-})
+const endpoints = fs
+    .readdirSync(path.resolve(__dirname + '/data'))
+    .map(file => {
+      return ({
+        path: file.replace('.json', ''),
+        data: JSON.parse(fs.readFileSync(path.resolve(__dirname + `/data/${file}`)).toString())
+      });
+    });
 
-// Add a route handler that returns 10 people per page.
-router.add('/api/people', (ctx, { url }) => {
-  const page = url.searchParams.get('page') || 1
-  ctx.body = {
-    count: people.length,
-    results: people.slice((page - 1) * 10, page * 10).map(p => p.fields)
-  }
+endpoints.forEach(({ path, data }) => {
+  router.get(`/api/${path}`, (ctx) => {
+    const page = parseInt(ctx.query.page) || 1
+    ctx.body = {
+      count: data.length,
+      results: data.slice((page - 1) * 10, page * 10).map(p => p.fields)
+    }
+  })
+
+  router.get(`/api/${path}/:id`, (ctx, next) => {
+    console.log('ctx', ctx.params.id)
+    console.log(data);
+    ctx.body = data.find(d => d.pk === parseInt(ctx.params.id)).fields
+    console.log(ctx.body)
+  })
 })
 
 // Add a 404 Not Found handler that is executed when no routes match.
@@ -58,7 +65,8 @@ function notFoundHandler (ctx) {
 }
 
 // Handle the request by allowing the router to route it to a handler.
-app.use(ctx => router.match(ctx, notFoundHandler))
+// app.use(ctx => router.match(ctx, notFoundHandler))
+app.use(router.routes())
 
 // Start listening on the specified (or randomized) port.
 const server = app.listen(specifiedPort)
