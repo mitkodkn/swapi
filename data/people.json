@@ -11,7 +11,22 @@
         "eye_color": "blue",
         "mass": "77",
         "homeworld": 1,
-        "birth_year": "19BBY"
+        "birth_year": "19BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/2/",
+            "https://swapi.booost.bg/api/films/3/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [
+            "https://swapi.booost.bg/api/vehicles/14/",
+            "https://swapi.booost.bg/api/vehicles/30/"
+        ],
+        "starships": [
+            "https://swapi.booost.bg/api/starships/12/",
+            "https://swapi.booost.bg/api/starships/22/"
+        ]
     },
     "model": "resources.people",
     "pk": 1
@@ -28,7 +43,20 @@
         "eye_color": "yellow",
         "mass": "75",
         "homeworld": 1,
-        "birth_year": "112BBY"
+        "birth_year": "112BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/2/",
+            "https://swapi.booost.bg/api/films/3/",
+            "https://swapi.booost.bg/api/films/4/",
+            "https://swapi.booost.bg/api/films/5/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [
+            "https://swapi.booost.bg/api/species/2/"
+        ],
+        "vehicles": [],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 2
@@ -45,7 +73,20 @@
         "eye_color": "red",
         "mass": "32",
         "homeworld": 8,
-        "birth_year": "33BBY"
+        "birth_year": "33BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/2/",
+            "https://swapi.booost.bg/api/films/3/",
+            "https://swapi.booost.bg/api/films/4/",
+            "https://swapi.booost.bg/api/films/5/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [
+            "https://swapi.booost.bg/api/species/2/"
+        ],
+        "vehicles": [],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 3
@@ -62,7 +103,18 @@
         "eye_color": "yellow",
         "mass": "136",
         "homeworld": 1,
-        "birth_year": "41.9BBY"
+        "birth_year": "41.9BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/2/",
+            "https://swapi.booost.bg/api/films/3/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": [
+            "https://swapi.booost.bg/api/starships/13/"
+        ]
     },
     "model": "resources.people",
     "pk": 4
@@ -79,7 +131,18 @@
         "eye_color": "brown",
         "mass": "49",
         "homeworld": 2,
-        "birth_year": "19BBY"
+        "birth_year": "19BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/2/",
+            "https://swapi.booost.bg/api/films/3/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [
+            "https://swapi.booost.bg/api/vehicles/30/"
+        ],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 5
@@ -113,7 +176,15 @@
         "eye_color": "blue",
         "mass": "75",
         "homeworld": 1,
-        "birth_year": "47BBY"
+        "birth_year": "47BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/5/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 7
@@ -130,7 +201,15 @@
         "eye_color": "red",
         "mass": "32",
         "homeworld": 1,
-        "birth_year": "unknown"
+        "birth_year": "unknown",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/"
+        ],
+        "species": [
+            "https://swapi.booost.bg/api/species/2/"
+        ],
+        "vehicles": [],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 8
@@ -147,7 +226,15 @@
         "eye_color": "brown",
         "mass": "84",
         "homeworld": 1,
-        "birth_year": "24BBY"
+        "birth_year": "24BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": [
+            "https://swapi.booost.bg/api/starships/12/"
+        ]
     },
     "model": "resources.people",
     "pk": 9
@@ -167,6 +254,25 @@
         "birth_year": "57BBY"
     },
     "model": "resources.people",
+    "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/",
+        "https://swapi.booost.bg/api/films/4/",
+        "https://swapi.booost.bg/api/films/5/",
+        "https://swapi.booost.bg/api/films/6/"
+    ],
+    "species": [],
+    "vehicles": [
+        "https://swapi.booost.bg/api/vehicles/38/"
+    ],
+    "starships": [
+        "https://swapi.booost.bg/api/starships/48/",
+        "https://swapi.booost.bg/api/starships/59/",
+        "https://swapi.booost.bg/api/starships/64/",
+        "https://swapi.booost.bg/api/starships/65/",
+        "https://swapi.booost.bg/api/starships/74/"
+    ],
     "pk": 10
 },
 {
