@@ -159,7 +159,15 @@
         "eye_color": "blue",
         "mass": "120",
         "homeworld": 1,
-        "birth_year": "52BBY"
+        "birth_year": "52BBY",
+        "films": [
+            "https://swapi.booost.bg/api/films/1/",
+            "https://swapi.booost.bg/api/films/5/",
+            "https://swapi.booost.bg/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": []
     },
     "model": "resources.people",
     "pk": 6
