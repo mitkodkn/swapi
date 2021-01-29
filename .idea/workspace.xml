@@ -10,17 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeeaea0-cc2a-4d24-b0b5-a1fd8cf174d9" name="Default Changelist" comment="fix: people with id 10">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/films.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/people.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/people.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/planets.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/planets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/species.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/species.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/starships.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/starships.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/transport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/vehicles.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/vehicles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="5aeeaea0-cc2a-4d24-b0b5-a1fd8cf174d9" name="Default Changelist" comment="fix: people with id 10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +45,7 @@
       <workItem from="1611764349150" duration="419000" />
       <workItem from="1611852283025" duration="4211000" />
       <workItem from="1611906076316" duration="318000" />
-      <workItem from="1611909528430" duration="7405000" />
+      <workItem from="1611909528430" duration="7761000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add more data to people.json">
       <created>1611856441516</created>
@@ -103,5 +93,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="762" y="489" width="375" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611928693760" />
+    <state x="661" y="310" width="587" height="526" key="find.popup" timestamp="1611929331265">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="310" width="587" height="526" key="find.popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611929331265" />
   </component>
 </project>
