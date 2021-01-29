@@ -72,10 +72,14 @@ endpoints.forEach(({ path, data }) => {
   });
 
   router.get(`/api/${path}/:id`, (ctx, next) => {
-    console.log(ctx.params.id);
-    ctx.body = data.results.find((d) => {
+    const result = data.results.find((d) => {
       return d.url.match(/\d+/)[0] === ctx.params.id;
     });
+    if (result) {
+      ctx.body = result;
+    } else {
+      ctx.status = 404;
+    }
   });
 });
 
