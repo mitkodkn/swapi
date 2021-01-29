@@ -1,407 +1,243 @@
-[
 {
-    "fields": {
-        "pilots": [],
-        "MGLT": "60",
-        "starship_class": "corvette",
-        "hyperdrive_rating": "2.0"
+  "count": 36,
+  "next": "https://swapi.booost.bg/api/starships/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "name": "CR90 corvette",
+      "model": "CR90 corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "3500000",
+      "length": "150",
+      "max_atmosphering_speed": "950",
+      "crew": "30-165",
+      "passengers": "600",
+      "cargo_capacity": "3000000",
+      "consumables": "1 year",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "corvette",
+      "pilots": [],
+      "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/3/",
+        "https://swapi.booost.bg/api/films/6/"
+      ],
+      "created": "2014-12-10T14:20:33.369000Z",
+      "edited": "2014-12-20T21:23:49.867000Z",
+      "url": "https://swapi.booost.bg/api/starships/2/"
     },
-    "model": "resources.starship",
-    "pk": 2
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "60",
-        "starship_class": "Star Destroyer",
-        "hyperdrive_rating": "2.0"
+    {
+      "name": "Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": "1,600",
+      "max_atmosphering_speed": "975",
+      "crew": "47,060",
+      "passengers": "n/a",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer",
+      "pilots": [],
+      "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-10T15:08:19.848000Z",
+      "edited": "2014-12-20T21:23:49.870000Z",
+      "url": "https://swapi.booost.bg/api/starships/3/"
     },
-    "model": "resources.starship",
-    "pk": 3
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "70",
-        "starship_class": "landing craft",
-        "hyperdrive_rating": "1.0"
+    {
+      "name": "Sentinel-class landing craft",
+      "model": "Sentinel-class landing craft",
+      "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
+      "cost_in_credits": "240000",
+      "length": "38",
+      "max_atmosphering_speed": "1000",
+      "crew": "5",
+      "passengers": "75",
+      "cargo_capacity": "180000",
+      "consumables": "1 month",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "70",
+      "starship_class": "landing craft",
+      "pilots": [],
+      "films": ["https://swapi.booost.bg/api/films/1/"],
+      "created": "2014-12-10T15:48:00.586000Z",
+      "edited": "2014-12-20T21:23:49.873000Z",
+      "url": "https://swapi.booost.bg/api/starships/5/"
     },
-    "model": "resources.starship",
-    "pk": 5
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "10",
-        "starship_class": "Deep Space Mobile Battlestation",
-        "hyperdrive_rating": "4.0"
+    {
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
+      "cost_in_credits": "1000000000000",
+      "length": "120000",
+      "max_atmosphering_speed": "n/a",
+      "crew": "342,953",
+      "passengers": "843,342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation",
+      "pilots": [],
+      "films": ["https://swapi.booost.bg/api/films/1/"],
+      "created": "2014-12-10T16:36:50.509000Z",
+      "edited": "2014-12-20T21:26:24.783000Z",
+      "url": "https://swapi.booost.bg/api/starships/9/"
     },
-    "model": "resources.starship",
-    "pk": 9
-},
-{
-    "fields": {
-        "pilots": [
-            13,
-            14,
-            25,
-            31
-        ],
-        "MGLT": "75",
-        "starship_class": "Light freighter",
-        "hyperdrive_rating": "0.5"
+    {
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": "34.37",
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter",
+      "pilots": [
+        "https://swapi.booost.bg/api/people/13/",
+        "https://swapi.booost.bg/api/people/14/",
+        "https://swapi.booost.bg/api/people/25/",
+        "https://swapi.booost.bg/api/people/31/"
+      ],
+      "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-10T16:59:45.094000Z",
+      "edited": "2014-12-20T21:23:49.880000Z",
+      "url": "https://swapi.booost.bg/api/starships/10/"
     },
-    "model": "resources.starship",
-    "pk": 10
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "80",
-        "starship_class": "assault starfighter",
-        "hyperdrive_rating": "1.0"
+    {
+      "name": "Y-wing",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": "14",
+      "max_atmosphering_speed": "1000km",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "assault starfighter",
+      "pilots": [],
+      "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-12T11:00:39.817000Z",
+      "edited": "2014-12-20T21:23:49.883000Z",
+      "url": "https://swapi.booost.bg/api/starships/11/"
     },
-    "model": "resources.starship",
-    "pk": 11
-},
-{
-    "fields": {
-        "pilots": [
-            1,
-            9,
-            18,
-            19
-        ],
-        "MGLT": "100",
-        "starship_class": "Starfighter",
-        "hyperdrive_rating": "1.0"
+    {
+      "name": "X-wing",
+      "model": "T-65 X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": "12.5",
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter",
+      "pilots": [
+        "https://swapi.booost.bg/api/people/1/",
+        "https://swapi.booost.bg/api/people/9/",
+        "https://swapi.booost.bg/api/people/18/",
+        "https://swapi.booost.bg/api/people/19/"
+      ],
+      "films": [
+        "https://swapi.booost.bg/api/films/1/",
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-12T11:19:05.340000Z",
+      "edited": "2014-12-20T21:23:49.886000Z",
+      "url": "https://swapi.booost.bg/api/starships/12/"
     },
-    "model": "resources.starship",
-    "pk": 12
-},
-{
-    "fields": {
-        "pilots": [
-            4
-        ],
-        "MGLT": "105",
-        "starship_class": "Starfighter",
-        "hyperdrive_rating": "1.0"
+    {
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": "9.2",
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter",
+      "pilots": ["https://swapi.booost.bg/api/people/4/"],
+      "films": ["https://swapi.booost.bg/api/films/1/"],
+      "created": "2014-12-12T11:21:32.991000Z",
+      "edited": "2014-12-20T21:23:49.889000Z",
+      "url": "https://swapi.booost.bg/api/starships/13/"
     },
-    "model": "resources.starship",
-    "pk": 13
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "40",
-        "starship_class": "Star dreadnought",
-        "hyperdrive_rating": "2.0"
+    {
+      "name": "Executor",
+      "model": "Executor-class star dreadnought",
+      "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
+      "cost_in_credits": "1143350000",
+      "length": "19000",
+      "max_atmosphering_speed": "n/a",
+      "crew": "279,144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "40",
+      "starship_class": "Star dreadnought",
+      "pilots": [],
+      "films": [
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-15T12:31:42.547000Z",
+      "edited": "2014-12-20T21:23:49.893000Z",
+      "url": "https://swapi.booost.bg/api/starships/15/"
     },
-    "model": "resources.starship",
-    "pk": 15
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "20",
-        "starship_class": "Medium transport",
-        "hyperdrive_rating": "4.0"
-    },
-    "model": "resources.starship",
-    "pk": 17
-},
-{
-    "fields": {
-        "pilots": [
-            22
-        ],
-        "MGLT": "70",
-        "starship_class": "Patrol craft",
-        "hyperdrive_rating": "3.0"
-    },
-    "model": "resources.starship",
-    "pk": 21
-},
-{
-    "fields": {
-        "pilots": [
-            1,
-            13,
-            14
-        ],
-        "MGLT": "50",
-        "starship_class": "Armed government transport",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 22
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "40",
-        "starship_class": "Escort ship",
-        "hyperdrive_rating": "2.0"
-    },
-    "model": "resources.starship",
-    "pk": 23
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "60",
-        "starship_class": "Star Cruiser",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 27
-},
-{
-    "fields": {
-        "pilots": [
-            29
-        ],
-        "MGLT": "120",
-        "starship_class": "Starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 28
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "91",
-        "starship_class": "Assault Starfighter",
-        "hyperdrive_rating": "2.0"
-    },
-    "model": "resources.starship",
-    "pk": 29
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "Space cruiser",
-        "hyperdrive_rating": "2.0"
-    },
-    "model": "resources.starship",
-    "pk": 31
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "Droid control ship",
-        "hyperdrive_rating": "2.0"
-    },
-    "model": "resources.starship",
-    "pk": 32
-},
-{
-    "fields": {
-        "pilots": [
-            11,
-            35,
-            60
-        ],
-        "MGLT": "unknown",
-        "starship_class": "Starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 39
-},
-{
-    "fields": {
-        "pilots": [
-            39
-        ],
-        "MGLT": "unknown",
-        "starship_class": "yacht",
-        "hyperdrive_rating": "1.8"
-    },
-    "model": "resources.starship",
-    "pk": 40
-},
-{
-    "fields": {
-        "pilots": [
-            44
-        ],
-        "MGLT": "unknown",
-        "starship_class": "Space Transport",
-        "hyperdrive_rating": "1.5"
-    },
-    "model": "resources.starship",
-    "pk": 41
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "Diplomatic barge",
-        "hyperdrive_rating": "0.7"
-    },
-    "model": "resources.starship",
-    "pk": 43
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "freighter",
-        "hyperdrive_rating": "unknown"
-    },
-    "model": "resources.starship",
-    "pk": 47
-},
-{
-    "fields": {
-        "pilots": [
-            10,
-            58
-        ],
-        "MGLT": "unknown",
-        "starship_class": "Starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 48
-},
-{
-    "fields": {
-        "pilots": [
-            35
-        ],
-        "MGLT": "unknown",
-        "starship_class": "yacht",
-        "hyperdrive_rating": "0.9"
-    },
-    "model": "resources.starship",
-    "pk": 49
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "assault ship",
-        "hyperdrive_rating": "0.6"
-    },
-    "model": "resources.starship",
-    "pk": 52
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "yacht",
-        "hyperdrive_rating": "1.5"
-    },
-    "model": "resources.starship",
-    "pk": 58
-},
-{
-    "fields": {
-        "pilots": [
-            10,
-            11
-        ],
-        "MGLT": "unknown",
-        "starship_class": "capital ship",
-        "hyperdrive_rating": "1.5"
-    },
-    "model": "resources.starship",
-    "pk": 59
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "transport",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 61
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "star destroyer",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 63
-},
-{
-    "fields": {
-        "pilots": [
-            10,
-            35
-        ],
-        "MGLT": "unknown",
-        "starship_class": "yacht",
-        "hyperdrive_rating": "0.5"
-    },
-    "model": "resources.starship",
-    "pk": 64
-},
-{
-    "fields": {
-        "pilots": [
-            10,
-            11
-        ],
-        "MGLT": "unknown",
-        "starship_class": "starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 65
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "100",
-        "starship_class": "starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 66
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "cruiser",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 68
-},
-{
-    "fields": {
-        "pilots": [
-            10,
-            79
-        ],
-        "MGLT": "unknown",
-        "starship_class": "starfighter",
-        "hyperdrive_rating": "6"
-    },
-    "model": "resources.starship",
-    "pk": 74
-},
-{
-    "fields": {
-        "pilots": [],
-        "MGLT": "unknown",
-        "starship_class": "starfighter",
-        "hyperdrive_rating": "1.0"
-    },
-    "model": "resources.starship",
-    "pk": 75
+    {
+      "name": "Rebel transport",
+      "model": "GR-75 medium transport",
+      "manufacturer": "Gallofree Yards, Inc.",
+      "cost_in_credits": "unknown",
+      "length": "90",
+      "max_atmosphering_speed": "650",
+      "crew": "6",
+      "passengers": "90",
+      "cargo_capacity": "19000000",
+      "consumables": "6 months",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "20",
+      "starship_class": "Medium transport",
+      "pilots": [],
+      "films": [
+        "https://swapi.booost.bg/api/films/2/",
+        "https://swapi.booost.bg/api/films/3/"
+      ],
+      "created": "2014-12-15T12:34:52.264000Z",
+      "edited": "2014-12-20T21:23:49.895000Z",
+      "url": "https://swapi.booost.bg/api/starships/17/"
+    }
+  ]
 }
-]

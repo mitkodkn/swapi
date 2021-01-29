@@ -6,21 +6,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aeeaea0-cc2a-4d24-b0b5-a1fd8cf174d9" name="Default Changelist" comment="">
+    <list default="true" id="5aeeaea0-cc2a-4d24-b0b5-a1fd8cf174d9" name="Default Changelist" comment="fix: people with id 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/films.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/people.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/people.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/planets.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/planets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/species.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/species.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/starships.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/starships.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/transport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/vehicles.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/vehicles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,25 @@
       <updated>1611737867283</updated>
       <workItem from="1611737868486" duration="6369000" />
       <workItem from="1611764349150" duration="419000" />
-      <workItem from="1611852283025" duration="2064000" />
+      <workItem from="1611852283025" duration="4211000" />
+      <workItem from="1611906076316" duration="318000" />
+      <workItem from="1611909528430" duration="7405000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add more data to people.json">
+      <created>1611856441516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611856441516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: people with id 10">
+      <created>1611857484738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611857484738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +88,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add more data to people.json" />
+    <MESSAGE value="fix: people with id 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: people with id 10" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="305" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1611857490482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="305" width="802" height="528" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1611857490482" />
+    <state x="762" y="489" width="375" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611928693760">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="762" y="489" width="375" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1611928693760" />
   </component>
 </project>

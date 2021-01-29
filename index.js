@@ -45,6 +45,7 @@ router.get('/api', ctx => {
 })
 
 const endpoints = fs
+    // eslint-disable-next-line no-path-concat
     .readdirSync(path.resolve(__dirname + '/data'))
     .map(file => {
       return ({
@@ -55,18 +56,13 @@ const endpoints = fs
 
 endpoints.forEach(({ path, data }) => {
   router.get(`/api/${path}`, (ctx) => {
-    const page = parseInt(ctx.query.page) || 1
-    ctx.body = {
-      count: data.length,
-      results: data.slice((page - 1) * 10, page * 10).map(p => p.fields)
-    }
+    ctx.body = data;
   })
 
   router.get(`/api/${path}/:id`, (ctx, next) => {
-    console.log('ctx', ctx.params.id)
-    console.log(data);
-    ctx.body = data.find(d => d.pk === parseInt(ctx.params.id)).fields
-    console.log(ctx.body)
+    ctx.body = data.results.find(d => {
+      return d.url.match(/\d+/)[0] === ctx.params.id
+    })
   })
 })
 
