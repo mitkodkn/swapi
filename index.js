@@ -61,10 +61,18 @@ const endpoints = fs
 
 endpoints.forEach(({ path, data }) => {
   router.get(`/api/${path}`, (ctx) => {
-    ctx.body = data;
+    const page = parseInt(ctx.query.page) || 1;
+    const perPage = 10;
+    const firstIndex = perPage * (page - 1);
+    const lastIndex = firstIndex + perPage;
+    ctx.body = {
+      ...data,
+      results: data.results.slice(firstIndex, lastIndex),
+    };
   });
 
   router.get(`/api/${path}/:id`, (ctx, next) => {
+    console.log(ctx.params.id);
     ctx.body = data.results.find((d) => {
       return d.url.match(/\d+/)[0] === ctx.params.id;
     });
