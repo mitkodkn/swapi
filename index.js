@@ -13,6 +13,13 @@ const path = require("path");
 const app = new Koa();
 const router = new Router();
 
+const getForPage = (page, results, perPage = 10) => {
+  const firstIndex = perPage * (page - 1);
+  const lastIndex = firstIndex + perPage;
+
+  return results.slice(firstIndex, lastIndex);
+};
+
 // Add error-handling middleware.
 app.use(async function errorHandlingMiddleware(ctx, next) {
   try {
@@ -62,12 +69,20 @@ const endpoints = fs
 endpoints.forEach(({ path, data }) => {
   router.get(`/api/${path}`, (ctx) => {
     const page = parseInt(ctx.query.page) || 1;
-    const perPage = 10;
-    const firstIndex = perPage * (page - 1);
-    const lastIndex = firstIndex + perPage;
+    const results = getForPage(page, data.results);
+    const nextResults = getForPage(page + 1, data.results);
+
     ctx.body = {
       ...data,
-      results: data.results.slice(firstIndex, lastIndex),
+      next:
+        nextResults.length > 0
+          ? `https://swapi.booost.bg/api/${path}?page=${page + 1}`
+          : null,
+      previous:
+        page - 1 < 1
+          ? null
+          : `https://swapi.booost.bg/api/${path}?page=${page - 1}`,
+      results,
     };
   });
 

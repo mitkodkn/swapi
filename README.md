@@ -1,5 +1,6 @@
 # @binxhealth/swapi
-> [The Star Wars API][swapiUrl] re-written using Node.js
+
+> [The Star Wars API][swapiurl] re-written using Node.js
 
 ## About
 
@@ -9,4 +10,4 @@
 2. Start the server on port 3000: `yarn start`
 3. Make requests to the server, e.g.: `curl http://localhost:3000/api/people`
 
-[swapiUrl]: https://github.com/phalt/swapi
+[swapiurl]: https://github.com/phalt/swapi
